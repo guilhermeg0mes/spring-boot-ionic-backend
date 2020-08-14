@@ -8,19 +8,20 @@ public class StandardError implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 	
-	private HttpStatus status;
+	private Integer status;
 	private String msg;
 	private long timeStamp;
-	public StandardError(HttpStatus notFound, String msg, long timeStamp) {
+	public StandardError(Integer i, String msg, long timeStamp) {
 		super();
-		this.status = notFound;
+		this.status = i;
 		this.msg = msg;
 		this.timeStamp = timeStamp;
 	}
-	public HttpStatus getStatus() {
+
+	public Integer getStatus() {
 		return status;
 	}
-	public void setStatus(HttpStatus status) {
+	public void setStatus(Integer status) {
 		this.status = status;
 	}
 	public String getMsg() {
