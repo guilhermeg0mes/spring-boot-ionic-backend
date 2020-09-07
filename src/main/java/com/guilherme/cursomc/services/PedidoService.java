@@ -14,7 +14,6 @@ import com.guilherme.cursomc.domain.enums.EstadoPagamento;
 import com.guilherme.cursomc.repositories.ItemPedidoRepository;
 import com.guilherme.cursomc.repositories.PagamentoRepository;
 import com.guilherme.cursomc.repositories.PedidoRepository;
-import com.guilherme.cursomc.repositories.ProdutoRepository;
 import com.guilherme.cursomc.services.exceptions.ObjectNotFoundException;
 
 @Service
