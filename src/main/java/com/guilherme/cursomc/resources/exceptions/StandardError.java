@@ -2,7 +2,6 @@ package com.guilherme.cursomc.resources.exceptions;
 
 import java.io.Serializable;
 
-import org.springframework.http.HttpStatus;
 
 public class StandardError implements Serializable {
 
